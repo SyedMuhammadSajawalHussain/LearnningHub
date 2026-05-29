@@ -7,7 +7,7 @@
 ## ✨ Features
 
 ### 📱 Main Sections
-|---------------------------------------------------------------------------------------------------------|
+
 |          Section           |                             Description                                    |
 |----------------------------|----------------------------------------------------------------------------|
 | ➕ **Addition**            | Step-by-step guide with examples (single & two-digit, with/without carry)  |
@@ -19,7 +19,7 @@
 | 🧮 **2-Digit Calculator**  | Practice operations with 2-digit numbers                                   |
 | 📝 **Quizzes**             | 20 mixed questions covering all operations                                 |
 | 📈 **My Progress**         | Track performance with statistics and history                              |
-|---------------------------------------------------------------------------------------------------------|
+
 
 ### 🎯 Key Features
 
@@ -73,7 +73,7 @@ implementation 'androidx.cardview:cardview:1.0.0'
 ## 📊 Database Schema
 
 ### Quiz Results Table
-|------------------------------------------------|
+
 |   Column   |   Type   |      Description       |
 |------------|----------|------------------------|
 | id         | INTEGER  | Primary key            |
@@ -81,10 +81,10 @@ implementation 'androidx.cardview:cardview:1.0.0'
 | score      | INTEGER  | Score achieved         |
 | total      | INTEGER  | Total questions (20)   |
 | percentage | REAL     | Percentage score       |
-|------------------------------------------------|
+
 
 ### Quiz Attempts Table
-|------------------------------------------------------|
+
 |     Column     |  Type   |        Description        |
 |----------------|---------|---------------------------|
 | id             | INTEGER | Primary key               |
@@ -94,7 +94,7 @@ implementation 'androidx.cardview:cardview:1.0.0'
 | total          | INTEGER | Total questions (20)      |
 | percentage     | REAL    | Percentage score          |
 | answers        | TEXT    | Answers summary (✓/✗)    |
-|------------------------------------------------------|
+
 
 ## 🎮 How to Use
 
@@ -115,7 +115,7 @@ implementation 'androidx.cardview:cardview:1.0.0'
 - Encourage repeated attempts for improvement
 
 ## 🎯 Quiz Grading System
-|----------------------------------------|
+
 | Percentage | Grade | Performance Level |
 |------------|-------|-------------------|
 | 90-100%    | A+    | Excellent         |
@@ -124,22 +124,23 @@ implementation 'androidx.cardview:cardview:1.0.0'
 | 60-69%     | C     | Fair              |
 | 50-59%     | D     | Pass              |
 | Below 50%  | F     | Need Improvement  |
-|----------------------------------------|
+
 
 ## 👥 Developers
-|---------------------------------------------------------------------------------------------|
+
 |             Name              |     Role      |                  Contact                    |
 |-------------------------------|---------------|---------------------------------------------|
 | Syed Muhammad Sajawal Hussain | Developer-1   | 0328-0841432 / bsitf23e110766@gcbskp.edu.pk |
 | Usama Ashraf                  | Developer-2   | 0319-9272955 / bsitf23e110769@gcbskp.edu.pk |
-|---------------------------------------------------------------------------------------------|
+
 
 ## 📞 Support
 
-Contact-1: 0328-0841432
-Contact-2: 0319-9272955
-Email-1: bsitf23e110766@gcbskp.edu.pk
-Email-2: bsitf23e110769@gcbskp.edu.pk
+📞 Contact-1: 0328-0841432  
+📞 Contact-2: 0319-9272955  
+
+✉️ Email-1: bsitf23e110766@gcbskp.edu.pk  
+✉️ Email-2: bsitf23e110769@gcbskp.edu.pk
 
 ## 📄 License
 
@@ -150,7 +151,7 @@ This project is developed for educational purposes. All rights reserved.
 - Operating System: Android 7.0 (Nougat) or higher
 - RAM: 2GB minimum
 - Storage: 50MB free space
-- Internet: Not required (offline app)
+- Internet: Required for Signin / Signup
 
 ---
 
